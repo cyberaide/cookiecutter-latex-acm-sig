@@ -1,4 +1,4 @@
-FILE=vonLaszewski-{{coockiecutter.label}}
+FILE=vonLaszewski-{{cookiecutter.label}}
 
 all:
 	pdflatex ${FILE}
