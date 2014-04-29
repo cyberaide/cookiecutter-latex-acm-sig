@@ -1,0 +1,162 @@
+\documentclass{tex/sig-alternate-2013}
+
+\usepackage[T1]{fontenc}
+\usepackage{comment}
+\usepackage{adjustbox}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{mathabx}
+\usepackage{hyperref} 
+\usepackage{array} 
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+\usepackage{pifont} 
+\usepackage{rotating} 
+\usepackage{color} 
+\usepackage{tabularx} 
+\usepackage{amssymb}
+\usepackage{enumitem}
+ 
+\newcommand*\rot{\rotatebox{90}} 
+
+\newcommand{\todo}[1]{{\color{red}{#1}}}
+\newcommand{\READ}{\todo{READ}}
+
+\newfont{\mycrnotice}{ptmr8t at 7pt}
+\newfont{\myconfname}{ptmri8t at 7pt}
+\let\crnotice\mycrnotice%
+\let\confname\myconfname%
+
+\permission{Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org.}
+\conferenceinfo{BigSystem 2014,}{June 23, 2014, Vancouver, BC, Canada.}
+\copyrightetc{Copyright 2014 ACM \the\acmcopyr}
+\crdata{978-1-4503-2909-5/14/06\ ...\$15.00.\\
+http://dx.doi.org/10.1145/2609441.2609638}
+
+\clubpenalty=10000 
+\widowpenalty = 10000
+
+\begin{document}
+
+\title{ {{cookiecutter.title}}}
+\numberofauthors{5} 
+% reorder as appropriate, correct the number of authors
+\author{
+% 1st. author
+\alignauthor
+Gregor von Laszewski\titlenote{Corresponding author.}\\
+       \affaddr{School of Informatics and Computing, Indiana University}\\
+       \affaddr{919 E. 10th Street}\\
+       \affaddr{Bloomington IN 47408, U.S.A.}\\ 
+       \email{laszewski@gmail.com} 
+% 2nd. author
+\alignauthor
+{{cookiecutter.author}} \\
+       \affaddr{School of Informatics and Computing, Indiana University}\\
+       \affaddr{919 E. 10th Street}\\
+       \affaddr{Bloomington IN 47408, U.S.A.}\\ 
+       \email{ {{cookiecutter.email}} } 
+% 3rd. author
+\alignauthor Firstname Lastname \\ 
+       \affaddr{School of Informatics and Computing, Indiana University}\\
+       \affaddr{919 E. 10th Street}\\
+       \affaddr{Bloomington IN 47408, U.S.A.}\\ 
+\and  % use '\and' if you need 'another row' of author names
+% 4th. author
+\alignauthor Firstname Lastname \\ 
+       \affaddr{School of Informatics and Computing, Indiana University}\\
+       \affaddr{919 E. 10th Street}\\
+       \affaddr{Bloomington IN 47408, U.S.A.}\\ 
+% 5th. author
+\alignauthor Firstname Lastname \\ 
+       \affaddr{School of Informatics and Computing, Indiana University}\\
+       \affaddr{919 E. 10th Street}\\
+       \affaddr{Bloomington IN 47408, U.S.A.}\\ 
+}
+
+\date{27 April 2014}
+
+\maketitle
+\begin{abstract}
+
+TBD
+
+
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{C.2.4}{Distributed Systems}{Cloud Computing}
+
+\terms{Computer-Communication Networks}
+
+\keywords{Cloud, multi-cloud, federated clouds, FutureGrid, Cloudmesh}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Requirements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Related Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Implementation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+TBD
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Acknowledgment 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+\section{Acknowledgments}
+
+This material is based upon work supported by the National Science
+Foundation under Grant No. 0910812 and OCI 1025159. Some work of
+Cloudmesh is based on earlier work conducted as part of \url{cyberaide.org}.
+
+\bibliographystyle{abbrvurl}
+
+\bibliography{% 
+bib/vonLaszewski-jabref.bib,%
+bib/cyberaide-cloud,%
+bib/cyberaide-metric} 
+
+%\bibliography{vonLaszewski-cloudmesh}
+
+\balancecolumns 
+\end{document}
